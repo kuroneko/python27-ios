@@ -6,4 +6,6 @@
 
 # generated sources
 Modules/config.c
-
+# ignore user-settings in the xcode project bundle
+iOS/Python27.xcodeproj/project.xcworkspace/xcuserdata/**
+iOS/Python27.xcodeproj/xcuserdata/**
