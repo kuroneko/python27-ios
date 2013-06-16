@@ -1,0 +1,9 @@
+.DS_Store
+*.swp
+*~
+\#*
+*.pyc
+
+# generated sources
+Modules/config.c
+
