@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83974C6B176D81EF00AA12D9 /* _math.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4629E176C0E2B00620D4E /* _math.c */; };
 		E11ED61B1769A7C9007841A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11ED61A1769A7C9007841A2 /* Foundation.framework */; };
 		E11ED62A1769A7C9007841A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11ED6291769A7C9007841A2 /* SenTestingKit.framework */; };
 		E11ED62D1769A7C9007841A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11ED61A1769A7C9007841A2 /* Foundation.framework */; };
@@ -127,19 +128,13 @@
 		E1B46483176C0E2C00620D4E /* stringio.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46299176C0E2B00620D4E /* stringio.c */; };
 		E1B46484176C0E2C00620D4E /* textio.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4629A176C0E2B00620D4E /* textio.c */; };
 		E1B46485176C0E2C00620D4E /* _json.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4629B176C0E2B00620D4E /* _json.c */; };
-		E1B46486176C0E2C00620D4E /* _localemodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4629C176C0E2B00620D4E /* _localemodule.c */; };
-		E1B46487176C0E2C00620D4E /* _lsprof.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4629D176C0E2B00620D4E /* _lsprof.c */; };
-		E1B46488176C0E2C00620D4E /* _math.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4629E176C0E2B00620D4E /* _math.c */; };
 		E1B4648E176C0E2C00620D4E /* _randommodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462A8176C0E2B00620D4E /* _randommodule.c */; };
 		E1B46498176C0E2C00620D4E /* _sre.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462BD176C0E2B00620D4E /* _sre.c */; };
 		E1B4649A176C0E2C00620D4E /* _struct.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462BF176C0E2B00620D4E /* _struct.c */; };
-		E1B4649B176C0E2C00620D4E /* _testcapimodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462C0176C0E2B00620D4E /* _testcapimodule.c */; };
 		E1B4649D176C0E2C00620D4E /* _weakref.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462C2176C0E2B00620D4E /* _weakref.c */; };
 		E1B4649F176C0E2C00620D4E /* arraymodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462C6176C0E2B00620D4E /* arraymodule.c */; };
 		E1B464A0176C0E2C00620D4E /* audioop.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462C7176C0E2B00620D4E /* audioop.c */; };
 		E1B464A1176C0E2C00620D4E /* binascii.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462C8176C0E2B00620D4E /* binascii.c */; };
-		E1B464A3176C0E2C00620D4E /* bz2module.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462CB176C0E2B00620D4E /* bz2module.c */; };
-		E1B464A5176C0E2C00620D4E /* cgensupport.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462CE176C0E2B00620D4E /* cgensupport.c */; };
 		E1B464A6176C0E2C00620D4E /* _codecs_cn.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462D1176C0E2B00620D4E /* _codecs_cn.c */; };
 		E1B464A7176C0E2C00620D4E /* _codecs_hk.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462D2176C0E2B00620D4E /* _codecs_hk.c */; };
 		E1B464A8176C0E2C00620D4E /* _codecs_iso2022.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462D3176C0E2B00620D4E /* _codecs_iso2022.c */; };
@@ -149,7 +144,6 @@
 		E1B464AC176C0E2C00620D4E /* multibytecodec.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462E0176C0E2B00620D4E /* multibytecodec.c */; };
 		E1B464AE176C0E2C00620D4E /* cmathmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462E4176C0E2C00620D4E /* cmathmodule.c */; };
 		E1B464AF176C0E2C00620D4E /* cPickle.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462E6176C0E2C00620D4E /* cPickle.c */; };
-		E1B464B0176C0E2C00620D4E /* cryptmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462E7176C0E2C00620D4E /* cryptmodule.c */; };
 		E1B464B1176C0E2C00620D4E /* cStringIO.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462E8176C0E2C00620D4E /* cStringIO.c */; };
 		E1B464B2176C0E2C00620D4E /* datetimemodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462EA176C0E2C00620D4E /* datetimemodule.c */; };
 		E1B464B5176C0E2C00620D4E /* errnomodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B462ED176C0E2C00620D4E /* errnomodule.c */; };
@@ -172,21 +166,16 @@
 		E1B464D5176C0E2C00620D4E /* parsermodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46327176C0E2C00620D4E /* parsermodule.c */; };
 		E1B464D6176C0E2C00620D4E /* posixmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46328176C0E2C00620D4E /* posixmodule.c */; };
 		E1B464D9176C0E2C00620D4E /* pyexpat.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4632C176C0E2C00620D4E /* pyexpat.c */; };
-		E1B464DD176C0E2C00620D4E /* rotatingtree.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46330176C0E2C00620D4E /* rotatingtree.c */; };
 		E1B464DE176C0E2C00620D4E /* selectmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46332176C0E2C00620D4E /* selectmodule.c */; };
 		E1B464E0176C0E2C00620D4E /* sha256module.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46336176C0E2C00620D4E /* sha256module.c */; };
 		E1B464E1176C0E2C00620D4E /* sha512module.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46337176C0E2C00620D4E /* sha512module.c */; };
 		E1B464E2176C0E2C00620D4E /* shamodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46338176C0E2C00620D4E /* shamodule.c */; };
-		E1B464E3176C0E2C00620D4E /* signalmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46339176C0E2C00620D4E /* signalmodule.c */; };
 		E1B464E4176C0E2C00620D4E /* socketmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4633A176C0E2C00620D4E /* socketmodule.c */; };
 		E1B464E6176C0E2C00620D4E /* stropmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4633F176C0E2C00620D4E /* stropmodule.c */; };
 		E1B464E9176C0E2C00620D4E /* symtablemodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46342176C0E2C00620D4E /* symtablemodule.c */; };
 		E1B464ED176C0E2C00620D4E /* timemodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46347176C0E2C00620D4E /* timemodule.c */; };
 		E1B464EE176C0E2C00620D4E /* timingmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46349176C0E2C00620D4E /* timingmodule.c */; };
 		E1B464F0176C0E2C00620D4E /* unicodedata.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4634C176C0E2C00620D4E /* unicodedata.c */; };
-		E1B464F1176C0E2C00620D4E /* xxmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4634F176C0E2C00620D4E /* xxmodule.c */; };
-		E1B464F2176C0E2C00620D4E /* xxsubtype.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46350176C0E2C00620D4E /* xxsubtype.c */; };
-		E1B464F3176C0E2C00620D4E /* yuvconvert.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46352176C0E2C00620D4E /* yuvconvert.c */; };
 		E1B464F4176C0E2C00620D4E /* zipimport.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46353176C0E2C00620D4E /* zipimport.c */; };
 		E1B46504176C0E2C00620D4E /* zlibmodule.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B46378176C0E2C00620D4E /* zlibmodule.c */; };
 		E1B4650D176D552800620D4E /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = E1B4650B176D552800620D4E /* config.c */; };
@@ -581,23 +570,15 @@
 		E1B46299176C0E2B00620D4E /* stringio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stringio.c; sourceTree = "<group>"; };
 		E1B4629A176C0E2B00620D4E /* textio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = textio.c; sourceTree = "<group>"; };
 		E1B4629B176C0E2B00620D4E /* _json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _json.c; sourceTree = "<group>"; };
-		E1B4629C176C0E2B00620D4E /* _localemodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _localemodule.c; sourceTree = "<group>"; };
-		E1B4629D176C0E2B00620D4E /* _lsprof.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _lsprof.c; sourceTree = "<group>"; };
 		E1B4629E176C0E2B00620D4E /* _math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _math.c; sourceTree = "<group>"; };
 		E1B4629F176C0E2B00620D4E /* _math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _math.h; sourceTree = "<group>"; };
 		E1B462A8176C0E2B00620D4E /* _randommodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _randommodule.c; sourceTree = "<group>"; };
 		E1B462BD176C0E2B00620D4E /* _sre.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _sre.c; sourceTree = "<group>"; };
 		E1B462BF176C0E2B00620D4E /* _struct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _struct.c; sourceTree = "<group>"; };
-		E1B462C0176C0E2B00620D4E /* _testcapimodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _testcapimodule.c; sourceTree = "<group>"; };
 		E1B462C2176C0E2B00620D4E /* _weakref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _weakref.c; sourceTree = "<group>"; };
-		E1B462C3176C0E2B00620D4E /* addrinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addrinfo.h; sourceTree = "<group>"; };
 		E1B462C6176C0E2B00620D4E /* arraymodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arraymodule.c; sourceTree = "<group>"; };
 		E1B462C7176C0E2B00620D4E /* audioop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = audioop.c; sourceTree = "<group>"; };
 		E1B462C8176C0E2B00620D4E /* binascii.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = binascii.c; sourceTree = "<group>"; };
-		E1B462CB176C0E2B00620D4E /* bz2module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bz2module.c; sourceTree = "<group>"; };
-		E1B462CD176C0E2B00620D4E /* cgen.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cgen.py; sourceTree = "<group>"; };
-		E1B462CE176C0E2B00620D4E /* cgensupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cgensupport.c; sourceTree = "<group>"; };
-		E1B462CF176C0E2B00620D4E /* cgensupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cgensupport.h; sourceTree = "<group>"; };
 		E1B462D1176C0E2B00620D4E /* _codecs_cn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _codecs_cn.c; sourceTree = "<group>"; };
 		E1B462D2176C0E2B00620D4E /* _codecs_hk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _codecs_hk.c; sourceTree = "<group>"; };
 		E1B462D3176C0E2B00620D4E /* _codecs_iso2022.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = _codecs_iso2022.c; sourceTree = "<group>"; };
@@ -619,7 +600,6 @@
 		E1B462E4176C0E2C00620D4E /* cmathmodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmathmodule.c; sourceTree = "<group>"; };
 		E1B462E5176C0E2C00620D4E /* config.c.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.c.in; sourceTree = "<group>"; };
 		E1B462E6176C0E2C00620D4E /* cPickle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cPickle.c; sourceTree = "<group>"; };
-		E1B462E7176C0E2C00620D4E /* cryptmodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cryptmodule.c; sourceTree = "<group>"; };
 		E1B462E8176C0E2C00620D4E /* cStringIO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cStringIO.c; sourceTree = "<group>"; };
 		E1B462E9176C0E2C00620D4E /* cstubs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cstubs; sourceTree = "<group>"; };
 		E1B462EA176C0E2C00620D4E /* datetimemodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = datetimemodule.c; sourceTree = "<group>"; };
@@ -669,8 +649,6 @@
 		E1B46329176C0E2C00620D4E /* posixmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = posixmodule.h; sourceTree = "<group>"; };
 		E1B4632C176C0E2C00620D4E /* pyexpat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pyexpat.c; sourceTree = "<group>"; };
 		E1B4632D176C0E2C00620D4E /* python.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = python.c; sourceTree = "<group>"; };
-		E1B46330176C0E2C00620D4E /* rotatingtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rotatingtree.c; sourceTree = "<group>"; };
-		E1B46331176C0E2C00620D4E /* rotatingtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotatingtree.h; sourceTree = "<group>"; };
 		E1B46332176C0E2C00620D4E /* selectmodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = selectmodule.c; sourceTree = "<group>"; };
 		E1B46333176C0E2C00620D4E /* Setup.config.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Setup.config.in; sourceTree = "<group>"; };
 		E1B46334176C0E2C00620D4E /* Setup.dist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Setup.dist; sourceTree = "<group>"; };
@@ -693,8 +671,6 @@
 		E1B4634E176C0E2C00620D4E /* unicodename_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicodename_db.h; sourceTree = "<group>"; };
 		E1B4634F176C0E2C00620D4E /* xxmodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xxmodule.c; sourceTree = "<group>"; };
 		E1B46350176C0E2C00620D4E /* xxsubtype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xxsubtype.c; sourceTree = "<group>"; };
-		E1B46351176C0E2C00620D4E /* yuv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yuv.h; sourceTree = "<group>"; };
-		E1B46352176C0E2C00620D4E /* yuvconvert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yuvconvert.c; sourceTree = "<group>"; };
 		E1B46353176C0E2C00620D4E /* zipimport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zipimport.c; sourceTree = "<group>"; };
 		E1B46378176C0E2C00620D4E /* zlibmodule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zlibmodule.c; sourceTree = "<group>"; };
 		E1B4650B176D552800620D4E /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
@@ -1056,28 +1032,19 @@
 				E1B46290176C0E2B00620D4E /* _heapqmodule.c */,
 				E1B46292176C0E2B00620D4E /* _io */,
 				E1B4629B176C0E2B00620D4E /* _json.c */,
-				E1B4629C176C0E2B00620D4E /* _localemodule.c */,
-				E1B4629D176C0E2B00620D4E /* _lsprof.c */,
 				E1B4629E176C0E2B00620D4E /* _math.c */,
 				E1B4629F176C0E2B00620D4E /* _math.h */,
 				E1B462A8176C0E2B00620D4E /* _randommodule.c */,
 				E1B462BD176C0E2B00620D4E /* _sre.c */,
 				E1B462BF176C0E2B00620D4E /* _struct.c */,
-				E1B462C0176C0E2B00620D4E /* _testcapimodule.c */,
 				E1B462C2176C0E2B00620D4E /* _weakref.c */,
-				E1B462C3176C0E2B00620D4E /* addrinfo.h */,
 				E1B462C6176C0E2B00620D4E /* arraymodule.c */,
 				E1B462C7176C0E2B00620D4E /* audioop.c */,
 				E1B462C8176C0E2B00620D4E /* binascii.c */,
-				E1B462CB176C0E2B00620D4E /* bz2module.c */,
-				E1B462CD176C0E2B00620D4E /* cgen.py */,
-				E1B462CE176C0E2B00620D4E /* cgensupport.c */,
-				E1B462CF176C0E2B00620D4E /* cgensupport.h */,
 				E1B462D0176C0E2B00620D4E /* cjkcodecs */,
 				E1B462E4176C0E2C00620D4E /* cmathmodule.c */,
 				E1B462E5176C0E2C00620D4E /* config.c.in */,
 				E1B462E6176C0E2C00620D4E /* cPickle.c */,
-				E1B462E7176C0E2C00620D4E /* cryptmodule.c */,
 				E1B462E8176C0E2C00620D4E /* cStringIO.c */,
 				E1B462E9176C0E2C00620D4E /* cstubs */,
 				E1B462EA176C0E2C00620D4E /* datetimemodule.c */,
@@ -1104,8 +1071,6 @@
 				E1B46329176C0E2C00620D4E /* posixmodule.h */,
 				E1B4632C176C0E2C00620D4E /* pyexpat.c */,
 				E1B4632D176C0E2C00620D4E /* python.c */,
-				E1B46330176C0E2C00620D4E /* rotatingtree.c */,
-				E1B46331176C0E2C00620D4E /* rotatingtree.h */,
 				E1B46332176C0E2C00620D4E /* selectmodule.c */,
 				E1B46333176C0E2C00620D4E /* Setup.config.in */,
 				E1B46334176C0E2C00620D4E /* Setup.dist */,
@@ -1128,8 +1093,6 @@
 				E1B4634E176C0E2C00620D4E /* unicodename_db.h */,
 				E1B4634F176C0E2C00620D4E /* xxmodule.c */,
 				E1B46350176C0E2C00620D4E /* xxsubtype.c */,
-				E1B46351176C0E2C00620D4E /* yuv.h */,
-				E1B46352176C0E2C00620D4E /* yuvconvert.c */,
 				E1B46353176C0E2C00620D4E /* zipimport.c */,
 				E1B46378176C0E2C00620D4E /* zlibmodule.c */,
 			);
@@ -1567,19 +1530,13 @@
 				E1B46483176C0E2C00620D4E /* stringio.c in Sources */,
 				E1B46484176C0E2C00620D4E /* textio.c in Sources */,
 				E1B46485176C0E2C00620D4E /* _json.c in Sources */,
-				E1B46486176C0E2C00620D4E /* _localemodule.c in Sources */,
-				E1B46487176C0E2C00620D4E /* _lsprof.c in Sources */,
-				E1B46488176C0E2C00620D4E /* _math.c in Sources */,
 				E1B4648E176C0E2C00620D4E /* _randommodule.c in Sources */,
 				E1B46498176C0E2C00620D4E /* _sre.c in Sources */,
 				E1B4649A176C0E2C00620D4E /* _struct.c in Sources */,
-				E1B4649B176C0E2C00620D4E /* _testcapimodule.c in Sources */,
 				E1B4649D176C0E2C00620D4E /* _weakref.c in Sources */,
 				E1B4649F176C0E2C00620D4E /* arraymodule.c in Sources */,
 				E1B464A0176C0E2C00620D4E /* audioop.c in Sources */,
 				E1B464A1176C0E2C00620D4E /* binascii.c in Sources */,
-				E1B464A3176C0E2C00620D4E /* bz2module.c in Sources */,
-				E1B464A5176C0E2C00620D4E /* cgensupport.c in Sources */,
 				E1B464A6176C0E2C00620D4E /* _codecs_cn.c in Sources */,
 				E1B464A7176C0E2C00620D4E /* _codecs_hk.c in Sources */,
 				E1B464A8176C0E2C00620D4E /* _codecs_iso2022.c in Sources */,
@@ -1589,7 +1546,6 @@
 				E1B464AC176C0E2C00620D4E /* multibytecodec.c in Sources */,
 				E1B464AE176C0E2C00620D4E /* cmathmodule.c in Sources */,
 				E1B464AF176C0E2C00620D4E /* cPickle.c in Sources */,
-				E1B464B0176C0E2C00620D4E /* cryptmodule.c in Sources */,
 				E1B464B1176C0E2C00620D4E /* cStringIO.c in Sources */,
 				E1B464B2176C0E2C00620D4E /* datetimemodule.c in Sources */,
 				E1B464B5176C0E2C00620D4E /* errnomodule.c in Sources */,
@@ -1612,25 +1568,21 @@
 				E1B464D5176C0E2C00620D4E /* parsermodule.c in Sources */,
 				E1B464D6176C0E2C00620D4E /* posixmodule.c in Sources */,
 				E1B464D9176C0E2C00620D4E /* pyexpat.c in Sources */,
-				E1B464DD176C0E2C00620D4E /* rotatingtree.c in Sources */,
 				E1B464DE176C0E2C00620D4E /* selectmodule.c in Sources */,
 				E1B464E0176C0E2C00620D4E /* sha256module.c in Sources */,
 				E1B464E1176C0E2C00620D4E /* sha512module.c in Sources */,
 				E1B464E2176C0E2C00620D4E /* shamodule.c in Sources */,
-				E1B464E3176C0E2C00620D4E /* signalmodule.c in Sources */,
 				E1B464E4176C0E2C00620D4E /* socketmodule.c in Sources */,
 				E1B464E6176C0E2C00620D4E /* stropmodule.c in Sources */,
 				E1B464E9176C0E2C00620D4E /* symtablemodule.c in Sources */,
 				E1B464ED176C0E2C00620D4E /* timemodule.c in Sources */,
 				E1B464EE176C0E2C00620D4E /* timingmodule.c in Sources */,
 				E1B464F0176C0E2C00620D4E /* unicodedata.c in Sources */,
-				E1B464F1176C0E2C00620D4E /* xxmodule.c in Sources */,
-				E1B464F2176C0E2C00620D4E /* xxsubtype.c in Sources */,
-				E1B464F3176C0E2C00620D4E /* yuvconvert.c in Sources */,
 				E1B464F4176C0E2C00620D4E /* zipimport.c in Sources */,
 				E1B46504176C0E2C00620D4E /* zlibmodule.c in Sources */,
 				E1B4650D176D552800620D4E /* config.c in Sources */,
 				E1B46592176D5EC200620D4E /* thread.c in Sources */,
+				83974C6B176D81EF00AA12D9 /* _math.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
