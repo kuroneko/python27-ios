@@ -27,6 +27,10 @@
     [self.window makeKeyAndVisible];
     
     Py_Initialize();
+
+    PyRun_SimpleString("from time import time,ctime\n"
+                       "print 'Today is',ctime(time())\n");
+    
     return YES;
 }
 

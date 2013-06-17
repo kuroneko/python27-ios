@@ -6235,7 +6235,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Lib",
+				"$(SRCROOT)/MiniLib",
 			);
 			name = "Install Python Library";
 			outputPaths = (
@@ -6243,7 +6243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Python/\"\ncp -R \"${SRCROOT}/../Lib/\"* \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Python/\"";
+			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Python/\"\n${SRCROOT}/../MiniLib/deploy_lib.sh \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Python/\"";
 		};
 		E11ED6261769A7C9007841A2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
