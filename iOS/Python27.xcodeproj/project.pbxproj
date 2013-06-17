@@ -6243,7 +6243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "mkdir -p ${DERIVED_FILE_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Python\ncp -R ${SRCROOT}/../Lib/* ${DERIVED_FILE_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Python/\n";
+			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Python/\"\ncp -R \"${SRCROOT}/../Lib/\"* \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Python/\"";
 		};
 		E11ED6261769A7C9007841A2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -6670,6 +6670,7 @@
 				8397611D176D9D9600AA12D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E11ED6121769A7C8007841A2 /* Build configuration list for PBXProject "Python27" */ = {
 			isa = XCConfigurationList;
