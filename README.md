@@ -26,17 +26,24 @@ Usage
   
   3. Add libPython27.a and libz.dylib to your target's "Link Binary with Libraries" stage.
   
+  4. Copy the python code you need (you need a site module at the absolute minimum) into a "Python" subdirectory of your app's resources directory.
+  
 Changes Made
 ------------
 
  * added iOS directory with Xcode project to build python.
  * Set up an initial module setup file (Modules/Setup) which brings in as much of the core as we could fudge together for now
  * Created a basic test that runs under the iOS simulator to make sure the interpreter links and runs without segfaulting.
+ * Replaced getpath.c with a version that hardcodes the search prefix into the application bundle
   
 TODO
 ----
-
- * Check library paths, set up to pull from app bundle by default only.
  * Get a basic testsuite together to confirm that the interpreter is working correctly.
  * Work out a better way to allow users to customise the static module linkage for their projects
  * get sqlite module working
+ * work out what the smallest sensible python library is for embedding
+ * Write script/tool to compile python bytecode and add it to the application bundle
+ * Patch the import methods so compiled bytecode gets written to an appropriate location.
+ * Change the runtime default to not save bytecode on actual devices (as code should be put into the bundle, precompiled).
+ * Patch the new getpath.m so it searches the bytecode output location.
+ 
